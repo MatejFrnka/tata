@@ -2,48 +2,10 @@
 
 ##### Obecné ############
 import pandas as pd  # for dataframes' manipulation
-from pandas import DataFrame  # for creating dataframes
-import numpy as np  # for arrays
-import matplotlib as plt  # for plotting
-from matplotlib.pyplot import figure  # for saving and changing size of plots
-
-from collections import Counter  # for counting elements
-from datetime import datetime  # for actual date
-import re  # !!! relativní Novinka - regular expressions
-from time import sleep  # for sleeping (slowing down) inside a function
-import random  # for random number (sleeping)
-import math  # Round float
 import time  # Time measuring
-import itertools  # for unlisting nested lists
 import re
-
-##### Scraping ############
-import requests  # for robots check
-from bs4 import BeautifulSoup  # for parsing
-from selenium import webdriver  # for browsers control
+import requests
 import json  # for Requests
-
-##### GeoPy ############
-from geopy.geocoders import Nominatim  # Geolocator   # pip install geopy
-from geopy.exc import GeocoderTimedOut  # for Error handling
-
-##########################
-# Zaítm nepoužito:
-##### Widgets ############
-import ipywidgets as widgets
-from ipywidgets import interact, interact_manual
-from IPython.display import display
-import os
-from IPython.display import Image
-
-##### Bonus - Hudba ############
-import winsound  # for Beep-sounds
-
-##### Vizualizace ############
-import seaborn as sns  # for cool plots
-
-import sys  # ???
-
 from consts import category_main_cb, category_type_cb, category_sub_cb
 
 
